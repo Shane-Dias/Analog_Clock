@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(255, 252, 249);
+}
+#clockbody{
+    position: relative;
+    height: 100vh;
+    width: 60vw;
+    background: url(clk_img.webp);
+    background-position: center;
+    background-size: 115%;
+    background-repeat: no-repeat;
+    margin: auto;
+    backdrop-filter: saturate(150%);
+
+
+}
+
+.hands{
+    background: black;
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+    top: 37%;
+    left: 49%;
+    width: 0.85%;
+    height: 14%;
+    background: linear-gradient(to bottom, red, rgb(0, 0, 0));
+    z-index: 9;
+    /* opacity: 0.8; */
+    box-shadow:0px  0px 4px 2px red;
+    border: none;
+}
+#min{
+    top: 28%;
+    left: 49%;
+    width: 0.85%;
+    height: 23%;
+    z-index: 7;
+    background: linear-gradient(to bottom, rgb(162, 0, 255), blue);
+    /* opacity: 0.8; */
+    box-shadow: 0px 0px 4px 2px rgb(162, 0, 255);
+    border: none;
+}
+#sec{
+    top: 24%;
+    left: 49%;
+    width: 0.85%;
+    height: 27%;
+    background: linear-gradient(to top, rgb(28, 122, 12), rgb(179, 255, 0));
+    /* opacity: 0.8; */
+    box-shadow: 0px 0px 4px 2px rgb(179, 255, 0);
+    border: none;
+
+}
+
