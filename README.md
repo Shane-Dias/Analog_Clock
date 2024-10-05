@@ -1,1 +1,4 @@
-Analog Clock using HTML, CSS and Javascript
+# Analog Clock
+
+## Description
+A simple and responsive analog clock created using HTML, CSS, and JavaScript
